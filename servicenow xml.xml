@@ -1,0 +1,827 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2026-09-12 18:08:53">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description/>
+<inserted/>
+<name>Book A Metro Ticket</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>71ab2228835b4b10024ef1e6feaad35a</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>f2cb3bdd83530350024ef1e6feaad3a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_9b4de6e8835b4b10024ef1e6feaad365</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_metro_station_s_detailsu_metro_station_details</description><local_or_existing>Existing</local_or_existing><name>u_metro_station_s_detailsu_metro_station_details</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:30:29</sys_created_on><sys_id>9b4de6e8835b4b10024ef1e6feaad365</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_s_detailsu_metro_station_details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_9b4de6e8835b4b10024ef1e6feaad365</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:30:29</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1943244475</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>32cb3bdd83530350024ef1e6feaad3ac</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a08994ddd80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_s_detailsu_metro_station_details</table>
+<target_name>u_metro_station_s_detailsu_metro_station_details</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>df4de6e86f5b4b10179b9989ddfd8169</update_guid>
+<update_guid_history>df4de6e86f5b4b10179b9989ddfd8169:1943244475</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_75baee64835b4b10024ef1e6feaad395</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="DELETE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><filter_extension/><is_data_interface>false</is_data_interface><is_df_table>false</is_df_table><is_extendable>false</is_extendable><label>Metro Station’s Details</label><live_feed_enabled>false</live_feed_enabled><name>u_metro_station_details</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:19:29</sys_created_on><sys_id>75baee64835b4b10024ef1e6feaad395</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Metro Station’s Details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_75baee64835b4b10024ef1e6feaad395</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:19:29</sys_updated_on><update_access>false</update_access><user_role display_value="u_metro_station_s_details_user" name="u_metro_station_s_details_user">82ca22a4835b4b10024ef1e6feaad311</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>-1045482480</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>36cb3bdd83530350024ef1e6feaad3a8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0899080a50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_details</table>
+<target_name>Metro Station’s Details</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>ed3c2668625b4b1042f028b72b597b9d</update_guid>
+<update_guid_history>ed3c2668625b4b1042f028b72b597b9d:-1045482480,36cae2a4205b4b1018f6d4292aab2ca7:1105020420</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_1ecaa2a4835b4b10024ef1e6feaad3a4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="DELETE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:19:30</sys_created_on><sys_id>1ecaa2a4835b4b10024ef1e6feaad3a4</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_details.u_metro_station_s_details_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="">96caa2a4835b4b10024ef1e6feaad39a</sys_security_acl><sys_update_name>sys_security_acl_role_1ecaa2a4835b4b10024ef1e6feaad3a4</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:19:30</sys_updated_on><sys_user_role display_value="u_metro_station_s_details_user" name="u_metro_station_s_details_user">82ca22a4835b4b10024ef1e6feaad311</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1764063085</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>36cb3bdd83530350024ef1e6feaad3ad</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0899074520000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>96caa2a4835b4b10024ef1e6feaad39a</table>
+<target_name>u_metro_station_details.u_metro_station_s_details_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>b03ce268af5b4b10f006b605cc5dd242</update_guid>
+<update_guid_history>b03ce268af5b4b10f006b605cc5dd242:1764063085,12caa2a4215b4b10e559bd9c05fe3fb1:1448457078</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_metro_station_details__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation action="DELETE" element="" label="Metro Station’s Details" language="en" table="u_metro_station_details"><sys_documentation action="DELETE"><element/><help/><hint/><label>Metro Station’s Details</label><language>en</language><name>u_metro_station_details</name><plural>Metro Station’s Details</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:19:31</sys_created_on><sys_id>3ecae2a4835b4b10024ef1e6feaad371</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Metro Station’s Details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_metro_station_details__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:19:31</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1010120316</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>3acb3bdd83530350024ef1e6feaad3a9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a08990731c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_details</table>
+<target_name>u_metro_station_details</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>643ce268b35b4b108a365479ef00991a</update_guid>
+<update_guid_history>643ce268b35b4b108a365479ef00991a:-1010120316,f2cae2a46f5b4b108ec2a04fc5c45aa4:259609460</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_6f4de6e8835b4b10024ef1e6feaad3c1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:30:30</sys_created_on><sys_id>6f4de6e8835b4b10024ef1e6feaad3c1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_s_detailsu_metro_station_details.u_metro_station_s_details_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_metro_station_s_detailsu_metro_station_details">eb4de6e8835b4b10024ef1e6feaad3bb</sys_security_acl><sys_update_name>sys_security_acl_role_6f4de6e8835b4b10024ef1e6feaad3c1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:30:30</sys_updated_on><sys_user_role display_value="u_metro_station_s_details_user" name="u_metro_station_s_details_user">82ca22a4835b4b10024ef1e6feaad311</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1571617388</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>3acb3bdd83530350024ef1e6feaad3ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a08994dfcd0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_s_detailsu_metro_station_details</table>
+<target_name>u_metro_station_s_detailsu_metro_station_details.u_metro_station_s_details_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>6f4de6e8f95b4b10a88cd2def26a9ec9</update_guid>
+<update_guid_history>6f4de6e8f95b4b10a88cd2def26a9ec9:1571617388</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_16cae2a4835b4b10024ef1e6feaad30e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="DELETE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow write for records in u_metro_station_details, for users with role u_metro_station_s_details_user.</description><local_or_existing>Existing</local_or_existing><name>u_metro_station_details</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:19:30</sys_created_on><sys_id>16cae2a4835b4b10024ef1e6feaad30e</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_metro_station_details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_16cae2a4835b4b10024ef1e6feaad30e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:19:30</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>362806795</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>3ecb3bdd83530350024ef1e6feaad3aa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0899074030000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_details</table>
+<target_name>u_metro_station_details</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>b83ce268615b4b1014798cfc6746ef34</update_guid>
+<update_guid_history>b83ce268615b4b1014798cfc6746ef34:362806795,1acae2a4d35b4b10fc7834f78f5b8a12:-2146266030</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_d34de6e8835b4b10024ef1e6feaad361</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Metro Station’s Details">9ecaa2a4835b4b10024ef1e6feaad38c</application><filter/><name>Metro Station’s Details</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>u_metro_station_s_details_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:30:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>d34de6e8835b4b10024ef1e6feaad361</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Metro Station’s Details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_d34de6e8835b4b10024ef1e6feaad361</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:30:29</sys_updated_on><table>u_metro_station_s_detailsu_metro_station_details</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>-279380314</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>3ecb3bdd83530350024ef1e6feaad3af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a08994dd8f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_s_detailsu_metro_station_details</table>
+<target_name>Metro Station’s Details</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>974de6e8135b4b10c8fe91529eceae63</update_guid>
+<update_guid_history>974de6e8135b4b10c8fe91529eceae63:-279380314</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_1b4de6e8835b4b10024ef1e6feaad3ab</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_metro_station_s_detailsu_metro_station_details</description><local_or_existing>Existing</local_or_existing><name>u_metro_station_s_detailsu_metro_station_details</name><operation display_value="write">write</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:30:30</sys_created_on><sys_id>1b4de6e8835b4b10024ef1e6feaad3ab</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_s_detailsu_metro_station_details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_1b4de6e8835b4b10024ef1e6feaad3ab</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:30:30</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1744448235</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>72cb3bdd83530350024ef1e6feaad3ab</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a08994df1b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_s_detailsu_metro_station_details</table>
+<target_name>u_metro_station_s_detailsu_metro_station_details</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>1f4de6e8855b4b10514b8b9ec7d2f2af</update_guid>
+<update_guid_history>1f4de6e8855b4b10514b8b9ec7d2f2af:1744448235</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_section_90ed2e2c835b4b10024ef1e6feaad395</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_ui_section caption="" section_id="90ed2e2c835b4b10024ef1e6feaad395" sys_domain="global" table="u_metro_station_s_detailsu_metro_station_details" version="3" view=""><sys_ui_element action="INSERT_OR_UPDATE"><element>u_station_name</element><position>0</position><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:33:02</sys_created_on><sys_id>eced6e2c835b4b10024ef1e6feaad31c</sys_id><sys_mod_count>0</sys_mod_count><sys_ui_formatter/><sys_ui_section caption="NULL" display_value="" name="u_metro_station_s_detailsu_metro_station_details" sys_domain="global" view="Default view">90ed2e2c835b4b10024ef1e6feaad395</sys_ui_section><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:33:02</sys_updated_on><sys_user/><type/></sys_ui_element><sys_ui_section action="INSERT_OR_UPDATE"><caption/><header>false</header><name>u_metro_station_s_detailsu_metro_station_details</name><roles/><sys_class_name>sys_ui_section</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:33:01</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>90ed2e2c835b4b10024ef1e6feaad395</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_s_detailsu_metro_station_details</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_section_90ed2e2c835b4b10024ef1e6feaad395</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:33:01</sys_updated_on><sys_user/><title>true</title><view display_value="Default view" name="NULL">Default view</view><view_name/></sys_ui_section></sys_ui_section></record_update>]]></payload>
+<payload_hash>1282352887</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>72cb3bdd83530350024ef1e6feaad3b0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0899730ed0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_s_detailsu_metro_station_details</table>
+<target_name>Metro Station’s Details</target_name>
+<type>Form Layout</type>
+<update_domain>global</update_domain>
+<update_guid>a0ed6e2c1c5b4b10e7705072388e7520</update_guid>
+<update_guid_history>a0ed6e2c1c5b4b10e7705072388e7520:1282352887,6ced6e2c355b4b103b869696898c5717:-1221901665</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_9ecae2a4835b4b10024ef1e6feaad32a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="DELETE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow delete for records in u_metro_station_details, for users with role u_metro_station_s_details_user.</description><local_or_existing>Existing</local_or_existing><name>u_metro_station_details</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:19:30</sys_created_on><sys_id>9ecae2a4835b4b10024ef1e6feaad32a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_metro_station_details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_9ecae2a4835b4b10024ef1e6feaad32a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:19:30</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>-133621341</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>76cb3bdd83530350024ef1e6feaad3ac</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a08990759b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_details</table>
+<target_name>u_metro_station_details</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>f03ce268b15b4b10cc4d7859aa888480</update_guid>
+<update_guid_history>f03ce268b15b4b10cc4d7859aa888480:-133621341,92cae2a43d5b4b1054fa93e0621f8a2f:2065797220</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_metro_station_details_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="DELETE" element="" table="u_metro_station_details"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes&gt;enforce_dot_walk_cross_scope_access=true&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_metro_station_details&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-10 04:19:31&lt;/sys_created_on&gt;&lt;sys_id&gt;e6cae2a4835b4b10024ef1e6feaad347&lt;/sys_id&gt;&lt;sys_name&gt;u_metro_station_details&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_metro_station_details_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-10 04:19:31&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-213843107</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>7acb3bdd83530350024ef1e6feaad3a8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a089907f0b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_details</table>
+<target_name>u_metro_station_details</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>dd3c2668095b4b1003af2091a58e5272</update_guid>
+<update_guid_history>dd3c2668095b4b1003af2091a58e5272:-213843107,becae2a4b75b4b10d6fa52ab736e01a0:333544361</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_1ecaa2a4835b4b10024ef1e6feaad3f7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="DELETE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:19:30</sys_created_on><sys_id>1ecaa2a4835b4b10024ef1e6feaad3f7</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_details.u_metro_station_s_details_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="">9acaa2a4835b4b10024ef1e6feaad3f1</sys_security_acl><sys_update_name>sys_security_acl_role_1ecaa2a4835b4b10024ef1e6feaad3f7</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:19:30</sys_updated_on><sys_user_role display_value="u_metro_station_s_details_user" name="u_metro_station_s_details_user">82ca22a4835b4b10024ef1e6feaad311</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>412089727</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>7acb3bdd83530350024ef1e6feaad3ad</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0899074e50000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>9acaa2a4835b4b10024ef1e6feaad3f1</table>
+<target_name>u_metro_station_details.u_metro_station_s_details_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>b03ce2686b5b4b107f330409e5a2db57</update_guid>
+<update_guid_history>b03ce2686b5b4b107f330409e5a2db57:412089727,d2cae2a4a85b4b1024154a74b5f1ff0c:96483720</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_metro_station_s_detailsu_metro_station_details_u_station_name_en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="u_station_name" label="Station Name" language="en" table="u_metro_station_s_detailsu_metro_station_details"><sys_documentation action="INSERT_OR_UPDATE"><element>u_station_name</element><help/><hint/><label>Station Name</label><language>en</language><name>u_metro_station_s_detailsu_metro_station_details</name><plural>Station Names</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:31:38</sys_created_on><sys_id>4c9daee8835b4b10024ef1e6feaad31d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Station Name</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_metro_station_s_detailsu_metro_station_details_u_station_name_en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:31:38</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>1733262923</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>7ecb3bdd83530350024ef1e6feaad3a9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a08995e9b90000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_s_detailsu_metro_station_details</table>
+<target_name>Metro Station’s Details.Station Name</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>009d622c065b4b104f512e6f1a25fe9e</update_guid>
+<update_guid_history>009d622c065b4b104f512e6f1a25fe9e:1733262923</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_96cae2a4835b4b10024ef1e6feaad314</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="DELETE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:19:30</sys_created_on><sys_id>96cae2a4835b4b10024ef1e6feaad314</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_details.u_metro_station_s_details_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="">16cae2a4835b4b10024ef1e6feaad30e</sys_security_acl><sys_update_name>sys_security_acl_role_96cae2a4835b4b10024ef1e6feaad314</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:19:30</sys_updated_on><sys_user_role display_value="u_metro_station_s_details_user" name="u_metro_station_s_details_user">82ca22a4835b4b10024ef1e6feaad311</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>138920412</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>7ecb3bdd83530350024ef1e6feaad3ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0899073be0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>16cae2a4835b4b10024ef1e6feaad30e</table>
+<target_name>u_metro_station_details.u_metro_station_s_details_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>f83ce268995b4b104cb417b4b8b2a42c</update_guid>
+<update_guid_history>f83ce268995b4b104cb417b4b8b2a42c:138920412,5ecae2a44e5b4b10d3da88bda7d22528:-176685595</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_documentation_u_metro_station_s_detailsu_metro_station_details__en</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update><sys_documentation element="" label="Metro Station’s Details" language="en" table="u_metro_station_s_detailsu_metro_station_details"><sys_documentation action="INSERT_OR_UPDATE"><element/><help/><hint/><label>Metro Station’s Details</label><language>en</language><name>u_metro_station_s_detailsu_metro_station_details</name><plural>Metro Station’s Details</plural><sys_class_name>sys_documentation</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:30:30</sys_created_on><sys_id>2b4de6e8835b4b10024ef1e6feaad3e0</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Metro Station’s Details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_documentation_u_metro_station_s_detailsu_metro_station_details__en</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:30:30</sys_updated_on><url/><url_target/></sys_documentation></sys_documentation></record_update>]]></payload>
+<payload_hash>-1500847660</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>b2cb3bdd83530350024ef1e6feaad3aa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a08994e1cb0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_s_detailsu_metro_station_details</table>
+<target_name>Metro Station’s Details</target_name>
+<type>Field Label</type>
+<update_domain>global</update_domain>
+<update_guid>ef4d2ae8b15b4b10661932b25de5a121</update_guid>
+<update_guid_history>ef4d2ae8b15b4b10661932b25de5a121:-1500847660</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_9b4de6e8835b4b10024ef1e6feaad3b1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:30:30</sys_created_on><sys_id>9b4de6e8835b4b10024ef1e6feaad3b1</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_s_detailsu_metro_station_details.u_metro_station_s_details_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_metro_station_s_detailsu_metro_station_details">1b4de6e8835b4b10024ef1e6feaad3ab</sys_security_acl><sys_update_name>sys_security_acl_role_9b4de6e8835b4b10024ef1e6feaad3b1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:30:30</sys_updated_on><sys_user_role display_value="u_metro_station_s_details_user" name="u_metro_station_s_details_user">82ca22a4835b4b10024ef1e6feaad311</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-498086089</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>b2cb3bdd83530350024ef1e6feaad3af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a08994df630000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_s_detailsu_metro_station_details</table>
+<target_name>u_metro_station_s_detailsu_metro_station_details.u_metro_station_s_details_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>ab4de6e8985b4b1047e06fbadf4dd0b9</update_guid>
+<update_guid_history>ab4de6e8985b4b1047e06fbadf4dd0b9:-498086089</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_96caa2a4835b4b10024ef1e6feaad39a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="DELETE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow create for records in u_metro_station_details, for users with role u_metro_station_s_details_user.</description><local_or_existing>Existing</local_or_existing><name>u_metro_station_details</name><operation display_value="create">create</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:19:30</sys_created_on><sys_id>96caa2a4835b4b10024ef1e6feaad39a</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_metro_station_details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_96caa2a4835b4b10024ef1e6feaad39a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:19:30</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1989421394</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>b6cb3bdd83530350024ef1e6feaad3ab</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0899074800000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_details</table>
+<target_name>u_metro_station_details</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>3c3ce2685a5b4b10ce444c1411b5b549</update_guid>
+<update_guid_history>3c3ce2685a5b4b10ce444c1411b5b549:1989421394,1acaa2a49e5b4b101a2935f3728a9ca2:-1980845054</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>ua_table_licensing_config_36cae2a4835b4b10024ef1e6feaad39d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="ua_table_licensing_config"><ua_table_licensing_config action="DELETE"><is_fulfillment>false</is_fulfillment><license_condition/><license_model>none</license_model><license_roles/><name>u_metro_station_details</name><op_delete>true</op_delete><op_insert>true</op_insert><op_update>true</op_update><owner_condition/><sys_class_name>ua_table_licensing_config</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:19:32</sys_created_on><sys_id>36cae2a4835b4b10024ef1e6feaad39d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>ua_table_licensing_config_36cae2a4835b4b10024ef1e6feaad39d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:19:32</sys_updated_on></ua_table_licensing_config></record_update>]]></payload>
+<payload_hash>2137814638</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>b6cb3bdd83530350024ef1e6feaad3b0</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a08990790c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table/>
+<target_name>u_metro_station_details</target_name>
+<type>Table Subscription Configuration</type>
+<update_domain>global</update_domain>
+<update_guid>c13ce2681c5b4b101129a600021c60da</update_guid>
+<update_guid_history>c13ce2681c5b4b101129a600021c60da:2137814638</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_12caa2a4835b4b10024ef1e6feaad384</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="DELETE"><active>true</active><application display_value="Metro Station’s Details">cecaa2a4835b4b10024ef1e6feaad37b</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Metro Station’s Details</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_metro_station_details</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>u_metro_station_s_details_user</roles><route/><screen/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:19:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>12caa2a4835b4b10024ef1e6feaad384</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Metro Station’s Details</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_12caa2a4835b4b10024ef1e6feaad384</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:19:29</sys_updated_on><timeline_page/><title>Metro Station’s Details</title><uncancelable>false</uncancelable><ux_list/><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>2099186734</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>bacb3bdd83530350024ef1e6feaad3a6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a08990767d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_details</table>
+<target_name>Metro Station’s Details</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>3c3ce268655b4b1022762aa42a29c2a6</update_guid>
+<update_guid_history>3c3ce268655b4b1022762aa42a29c2a6:2099186734,1acaa2a4f95b4b10f9bf42b035785a8a:11345594</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_app_module_df4deee4835b4b10024ef1e6feaad395</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Metro Station’s Details">cecaa2a4835b4b10024ef1e6feaad37b</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Metro Station’s Details</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>u_metro_station_s_detailsu_metro_station_details</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><require_confirmation>true</require_confirmation><roles>u_metro_station_s_details_user</roles><route/><screen/><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:30:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>df4deee4835b4b10024ef1e6feaad395</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Metro Station’s Details</sys_name><sys_overrides/><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_app_module_df4deee4835b4b10024ef1e6feaad395</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:30:29</sys_updated_on><timeline_page/><title>Metro Station’s Details</title><uncancelable>false</uncancelable><ux_list/><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+<payload_hash>501964447</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>bacb3bdd83530350024ef1e6feaad3a7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a08994dd6c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_s_detailsu_metro_station_details</table>
+<target_name>Metro Station’s Details</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>9f4deee4a65b4b105197516941aad698</update_guid>
+<update_guid_history>9f4deee4a65b4b105197516941aad698:501964447</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_eb4de6e8835b4b10024ef1e6feaad3bb</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_metro_station_s_detailsu_metro_station_details</description><local_or_existing>Existing</local_or_existing><name>u_metro_station_s_detailsu_metro_station_details</name><operation display_value="delete">delete</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:30:30</sys_created_on><sys_id>eb4de6e8835b4b10024ef1e6feaad3bb</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_s_detailsu_metro_station_details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_eb4de6e8835b4b10024ef1e6feaad3bb</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:30:30</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1468138649</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>bacb3bdd83530350024ef1e6feaad3ac</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a08994df8d0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_s_detailsu_metro_station_details</table>
+<target_name>u_metro_station_s_detailsu_metro_station_details</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>ef4de6e8d15b4b10fd617cd9c91f70bf</update_guid>
+<update_guid_history>ef4de6e8d15b4b10fd617cd9c91f70bf:1468138649</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_metro_station_s_detailsu_metro_station_details_null</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="" table="u_metro_station_s_detailsu_metro_station_details"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes&gt;enforce_dot_walk_cross_scope_access=true&lt;/attributes&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label/&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element/&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="Collection"&gt;collection&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_metro_station_s_detailsu_metro_station_details&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-10 04:30:30&lt;/sys_created_on&gt;&lt;sys_id&gt;eb4de6e8835b4b10024ef1e6feaad3cb&lt;/sys_id&gt;&lt;sys_name&gt;u_metro_station_s_detailsu_metro_station_details&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_metro_station_s_detailsu_metro_station_details_null&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-10 04:30:30&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>-39885962</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>becb3bdd83530350024ef1e6feaad3a8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a08994e1ac0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_s_detailsu_metro_station_details</table>
+<target_name>Metro Station’s Details</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>2f4d2ae8f65b4b10e9b805d241f74e1e</update_guid>
+<update_guid_history>2f4d2ae8f65b4b10e9b805d241f74e1e:-39885962</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_5b4de6e8835b4b10024ef1e6feaad388</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:30:29</sys_created_on><sys_id>5b4de6e8835b4b10024ef1e6feaad388</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_s_detailsu_metro_station_details.u_metro_station_s_details_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_metro_station_s_detailsu_metro_station_details">134de6e8835b4b10024ef1e6feaad376</sys_security_acl><sys_update_name>sys_security_acl_role_5b4de6e8835b4b10024ef1e6feaad388</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:30:29</sys_updated_on><sys_user_role display_value="u_metro_station_s_details_user" name="u_metro_station_s_details_user">82ca22a4835b4b10024ef1e6feaad311</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>-506255224</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>becb3bdd83530350024ef1e6feaad3ad</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a08994dee80000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_s_detailsu_metro_station_details</table>
+<target_name>u_metro_station_s_detailsu_metro_station_details.u_metro_station_s_details_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>5b4de6e8eb5b4b1009cb11f90eca3e90</update_guid>
+<update_guid_history>5b4de6e8eb5b4b1009cb11f90eca3e90:-506255224</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_dictionary_u_metro_station_s_detailsu_metro_station_details_u_station_name</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update&gt;&lt;sys_dictionary action="INSERT_OR_UPDATE" element="u_station_name" table="u_metro_station_s_detailsu_metro_station_details"&gt;&lt;active&gt;true&lt;/active&gt;&lt;array&gt;false&lt;/array&gt;&lt;attributes/&gt;&lt;audit&gt;false&lt;/audit&gt;&lt;calculation&gt;&lt;![CDATA[(function calculatedFieldValue(current) {
+
+	// Add your code here
+	return '';  // return the calculated value
+
+})(current);]]&gt;&lt;/calculation&gt;&lt;choice/&gt;&lt;choice_field/&gt;&lt;choice_table/&gt;&lt;column_label&gt;Station Name&lt;/column_label&gt;&lt;comments/&gt;&lt;create_roles/&gt;&lt;default_value/&gt;&lt;defaultsort/&gt;&lt;delete_roles/&gt;&lt;dependent/&gt;&lt;dependent_on_field/&gt;&lt;display&gt;false&lt;/display&gt;&lt;dynamic_creation&gt;false&lt;/dynamic_creation&gt;&lt;dynamic_creation_script/&gt;&lt;dynamic_default_value/&gt;&lt;dynamic_ref_qual/&gt;&lt;element&gt;u_station_name&lt;/element&gt;&lt;element_reference&gt;false&lt;/element_reference&gt;&lt;foreign_database/&gt;&lt;formula/&gt;&lt;function_definition/&gt;&lt;function_field&gt;false&lt;/function_field&gt;&lt;internal_type display_value="String"&gt;string&lt;/internal_type&gt;&lt;mandatory&gt;false&lt;/mandatory&gt;&lt;max_length&gt;40&lt;/max_length&gt;&lt;name&gt;u_metro_station_s_detailsu_metro_station_details&lt;/name&gt;&lt;next_element/&gt;&lt;primary&gt;false&lt;/primary&gt;&lt;read_only&gt;false&lt;/read_only&gt;&lt;read_only_option/&gt;&lt;read_roles/&gt;&lt;reference/&gt;&lt;reference_cascade_rule/&gt;&lt;reference_floats&gt;false&lt;/reference_floats&gt;&lt;reference_key/&gt;&lt;reference_qual/&gt;&lt;reference_qual_condition/&gt;&lt;reference_type/&gt;&lt;spell_check&gt;false&lt;/spell_check&gt;&lt;staged&gt;false&lt;/staged&gt;&lt;sys_class_name&gt;sys_dictionary&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2026-09-10 04:31:37&lt;/sys_created_on&gt;&lt;sys_id&gt;5d6deae8835b4b10024ef1e6feaad3dc&lt;/sys_id&gt;&lt;sys_name&gt;Station Name&lt;/sys_name&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_dictionary_u_metro_station_s_detailsu_metro_station_details_u_station_name&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2026-09-10 04:31:37&lt;/sys_updated_on&gt;&lt;table_reference&gt;false&lt;/table_reference&gt;&lt;text_index&gt;false&lt;/text_index&gt;&lt;unique&gt;false&lt;/unique&gt;&lt;use_dependent_field&gt;false&lt;/use_dependent_field&gt;&lt;use_dynamic_default&gt;false&lt;/use_dynamic_default&gt;&lt;use_reference_qualifier&gt;simple&lt;/use_reference_qualifier&gt;&lt;virtual&gt;false&lt;/virtual&gt;&lt;virtual_type&gt;script&lt;/virtual_type&gt;&lt;widget/&gt;&lt;write_roles/&gt;&lt;xml_view&gt;false&lt;/xml_view&gt;&lt;/sys_dictionary&gt;&lt;/record_update&gt;</payload>
+<payload_hash>678925942</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>f2cb3bdd83530350024ef1e6feaad3a9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a08995e99f0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_s_detailsu_metro_station_details</table>
+<target_name>Metro Station’s Details.Station Name</target_name>
+<type>Dictionary</type>
+<update_domain>global</update_domain>
+<update_guid>889d622cea5b4b100421a2f9f3e40a9a</update_guid>
+<update_guid_history>889d622cea5b4b100421a2f9f3e40a9a:678925942</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_5f4de6e8835b4b10024ef1e6feaad36b</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:30:29</sys_created_on><sys_id>5f4de6e8835b4b10024ef1e6feaad36b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_s_detailsu_metro_station_details.u_metro_station_s_details_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="u_metro_station_s_detailsu_metro_station_details">9b4de6e8835b4b10024ef1e6feaad365</sys_security_acl><sys_update_name>sys_security_acl_role_5f4de6e8835b4b10024ef1e6feaad36b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:30:29</sys_updated_on><sys_user_role display_value="u_metro_station_s_details_user" name="u_metro_station_s_details_user">82ca22a4835b4b10024ef1e6feaad311</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1572718305</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>f2cb3bdd83530350024ef1e6feaad3ae</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a08994de250000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_s_detailsu_metro_station_details</table>
+<target_name>u_metro_station_s_detailsu_metro_station_details.u_metro_station_s_details_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>df4de6e8395b4b109c735266b7044f73</update_guid>
+<update_guid_history>df4de6e8395b4b109c735266b7044f73:1572718305</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_134de6e8835b4b10024ef1e6feaad376</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Default access control on u_metro_station_s_detailsu_metro_station_details</description><local_or_existing>Existing</local_or_existing><name>u_metro_station_s_detailsu_metro_station_details</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:30:29</sys_created_on><sys_id>134de6e8835b4b10024ef1e6feaad376</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_s_detailsu_metro_station_details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_134de6e8835b4b10024ef1e6feaad376</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:30:29</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>2103140847</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>f6cb3bdd83530350024ef1e6feaad3aa</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a08994de5c0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_s_detailsu_metro_station_details</table>
+<target_name>u_metro_station_s_detailsu_metro_station_details</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>db4de6e8995b4b1091e770e2b2d4a586</update_guid>
+<update_guid_history>db4de6e8995b4b1091e770e2b2d4a586:2103140847</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_ui_module_1ecaa2a4835b4b10024ef1e6feaad392</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module"><sys_ui_module action="DELETE"><active>true</active><application display_value="Metro Station’s Details">9ecaa2a4835b4b10024ef1e6feaad38c</application><filter/><name>Metro Station’s Details</name><order/><path/><path_relative_to_root>false</path_relative_to_root><roles>u_metro_station_s_details_user</roles><sys_class_name>sys_ui_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:19:29</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>1ecaa2a4835b4b10024ef1e6feaad392</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Metro Station’s Details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_ui_module_1ecaa2a4835b4b10024ef1e6feaad392</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:19:29</sys_updated_on><table>u_metro_station_details</table><uncancelable>false</uncancelable><view_name/></sys_ui_module></record_update>]]></payload>
+<payload_hash>1635224899</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>f6cb3bdd83530350024ef1e6feaad3af</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a089907b9b0000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_details</table>
+<target_name>Metro Station’s Details</target_name>
+<type>Module</type>
+<update_domain>global</update_domain>
+<update_guid>593c2668ad5b4b10f1f27b7859735518</update_guid>
+<update_guid_history>593c2668ad5b4b10f1f27b7859735518:1635224899,5acaa2a4b85b4b10bda75705c25fdf97:-163760817</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_9acaa2a4835b4b10024ef1e6feaad3f1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="DELETE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><applies_to/><condition/><controlled_by_refs/><decision_type>allow</decision_type><description>Allow read for records in u_metro_station_details, for users with role u_metro_station_s_details_user.</description><local_or_existing>Existing</local_or_existing><name>u_metro_station_details</name><operation display_value="read">read</operation><script/><security_attribute/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:19:30</sys_created_on><sys_id>9acaa2a4835b4b10024ef1e6feaad3f1</sys_id><sys_mod_count>1</sys_mod_count><sys_name>u_metro_station_details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_security_acl_9acaa2a4835b4b10024ef1e6feaad3f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:19:30</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+<payload_hash>1141762296</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>facb3bdd83530350024ef1e6feaad3ab</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0899075140000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_details</table>
+<target_name>u_metro_station_details</target_name>
+<type>Access Control</type>
+<update_domain>global</update_domain>
+<update_guid>3c3ce268da5b4b1053371dc1b868cb5e</update_guid>
+<update_guid_history>3c3ce268da5b4b1053371dc1b868cb5e:1141762296,9ecaa2a4cd5b4b101466bedecd98a5f5:908858190</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_db_object_373d26e8835b4b10024ef1e6feaad300</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_object"><sys_db_object action="INSERT_OR_UPDATE"><access>public</access><actions_access>false</actions_access><alter_access>false</alter_access><caller_access/><client_scripts_access>false</client_scripts_access><configuration_access>false</configuration_access><create_access>false</create_access><create_access_controls>true</create_access_controls><delete_access>false</delete_access><filter_extension/><is_data_interface>false</is_data_interface><is_df_table>false</is_df_table><is_extendable>false</is_extendable><label>Metro Station’s Details</label><live_feed_enabled>false</live_feed_enabled><name>u_metro_station_s_detailsu_metro_station_details</name><number_ref/><provider_class/><read_access>true</read_access><scriptable_table>false</scriptable_table><super_class/><sys_class_name>sys_db_object</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:30:29</sys_created_on><sys_id>373d26e8835b4b10024ef1e6feaad300</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Metro Station’s Details</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_update_name>sys_db_object_373d26e8835b4b10024ef1e6feaad300</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:30:29</sys_updated_on><update_access>false</update_access><user_role display_value="u_metro_station_s_details_user" name="u_metro_station_s_details_user">82ca22a4835b4b10024ef1e6feaad311</user_role><ws_access>true</ws_access></sys_db_object></record_update>]]></payload>
+<payload_hash>1492221695</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>fecb3bdd83530350024ef1e6feaad3a7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a08994e1e70000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>u_metro_station_s_detailsu_metro_station_details</table>
+<target_name>Metro Station’s Details</target_name>
+<type>Table</type>
+<update_domain>global</update_domain>
+<update_guid>af4d2ae8005b4b1058bc73c6db198124</update_guid>
+<update_guid_history>af4d2ae8005b4b1058bc73c6db198124:1492221695</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>DELETE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_security_acl_role_12cae2a4835b4b10024ef1e6feaad331</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="DELETE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2026-09-10 04:19:30</sys_created_on><sys_id>12cae2a4835b4b10024ef1e6feaad331</sys_id><sys_mod_count>0</sys_mod_count><sys_name>u_metro_station_details.u_metro_station_s_details_user</sys_name><sys_package display_value="Global" source="global">global</sys_package><sys_policy/><sys_scope display_value="Global">global</sys_scope><sys_security_acl display_value="">9ecae2a4835b4b10024ef1e6feaad32a</sys_security_acl><sys_update_name>sys_security_acl_role_12cae2a4835b4b10024ef1e6feaad331</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2026-09-10 04:19:30</sys_updated_on><sys_user_role display_value="u_metro_station_s_details_user" name="u_metro_station_s_details_user">82ca22a4835b4b10024ef1e6feaad311</sys_user_role></sys_security_acl_role></record_update>]]></payload>
+<payload_hash>1557647515</payload_hash>
+<remote_update_set display_value="Book A Metro Ticket">f2cb3bdd83530350024ef1e6feaad3a6</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>admin</sys_created_by>
+<sys_created_on>2026-09-12 18:08:52</sys_created_on>
+<sys_id>fecb3bdd83530350024ef1e6feaad3ac</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>1a0899075610000001</sys_recorded_at>
+<sys_updated_by>admin</sys_updated_by>
+<sys_updated_on>2026-09-12 18:08:52</sys_updated_on>
+<table>9ecae2a4835b4b10024ef1e6feaad32a</table>
+<target_name>u_metro_station_details.u_metro_station_s_details_user</target_name>
+<type>Access Roles</type>
+<update_domain>global</update_domain>
+<update_guid>783ce2688c5b4b10d093a694dad9a778</update_guid>
+<update_guid_history>783ce2688c5b4b10d093a694dad9a778:1557647515,22cae2a47c5b4b1028e2e901d0160939:1242041508</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
